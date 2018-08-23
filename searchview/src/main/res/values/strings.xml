@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SearchView</string>
+    <string name="search_hint">Search…</string>
+    <string name="back_button">Back button</string>
+
+    <string name="font_family_light">sans-serif-light</string>
+    <string name="font_family_medium">sans-serif-medium</string>
+    <string name="font_family_regular">sans-serif</string>
+    <string name="font_family_condensed">sans-serif-condensed</string>
+    <string name="font_family_black">sans-serif-black</string>
+    <string name="font_family_thin">sans-serif-thin</string>
+    <string name="no_search_history">No search history</string>
+</resources>
