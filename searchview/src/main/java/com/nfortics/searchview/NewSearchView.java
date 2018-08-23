@@ -13,6 +13,7 @@ import android.os.Build;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.speech.RecognizerIntent;
+import android.support.annotation.ColorInt;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -51,6 +52,7 @@ public class NewSearchView extends FrameLayout {
     private ImageButton emptyBtn;
     private ConstraintLayout inputField;
     private View bottomPanel;
+    private View toolbar;
 
     private boolean isClearingFocus;
 
@@ -159,6 +161,7 @@ public class NewSearchView extends FrameLayout {
         scrimView = searchBar.findViewById(R.id.scrim_view);
         bottomPanel = searchBar.findViewById(R.id.bottomPanel);
         exception = searchBar.findViewById(R.id.exception);
+        toolbar = searchBar.findViewById(R.id.toolbar_background);
 
         searchTextView.setOnClickListener(onClickListener);
         backBtn.setOnClickListener(onClickListener);
@@ -294,15 +297,15 @@ public class NewSearchView extends FrameLayout {
     }
 
     @Override
-    public void setBackgroundColor(int color) {
-        inputField.setBackgroundColor(color);
+    public void setBackgroundColor(@ColorInt int color) {
+        toolbar.setBackgroundColor(color);
     }
 
-    public void setTextColor(int color) {
+    public void setTextColor(@ColorInt int color) {
         searchTextView.setTextColor(color);
     }
 
-    public void setHintTextColor(int color) {
+    public void setHintTextColor(@ColorInt int color) {
         searchTextView.setHintTextColor(color);
     }
 
