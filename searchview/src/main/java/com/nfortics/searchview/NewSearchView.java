@@ -38,7 +38,7 @@ import java.util.Set;
  * @author Aryeetey Solomon Aryeetey
  */
 public class NewSearchView extends FrameLayout {
-    private static final int RC_VOICE = 100;
+    public static final int RC_VOICE = 100;
     private static final String SUGGESTIONS_KEY = "suggestions";
     private static final String TAG = NewSearchView.class.getSimpleName();
 

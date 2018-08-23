@@ -52,7 +52,7 @@
                     android:id="@+id/back_btn"
                     style="@style/ImageButtonStyle"
                     android:contentDescription="@string/back_button"
-                    android:src="@drawable/ic_arrow_back_70"
+                    android:src="@drawable/ic_search_70"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
