@@ -15,7 +15,7 @@ A material search view which uses principles from Material Design. *Works from A
 **Add dependency in your app's build.gradle file**
 ```javascript
 	dependencies {
-	        implementation 'com.github.hayahyts:NewSearchView:-SNAPSHOT'
+	        implementation 'com.github.hayahyts:NewSearchView:0.5.0'
 	}
 ```
 
